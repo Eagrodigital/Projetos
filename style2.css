@@ -1,0 +1,93 @@
+:root {
+    --cor-fundo: rgb(106, 228, 159);
+    --cor-hover: rgb(248, 248, 248);
+    --cor-primaria: rgb(0, 0, 0);
+}
+img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+body{
+    background: url(eagro2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 1em;
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-flex;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+.dp-menu{
+    display:block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 255px;
+}
+
+.voltar{
+    width: 105px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    color: rgb(68, 49, 49);
+    background-color: rgb(83, 245, 132);
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+.tudo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+}

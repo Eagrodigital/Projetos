@@ -67,7 +67,16 @@ nav ul .active{
 .icons-social a,i{
     color: rgb(255, 255, 255, 1);
     width: 40px;
-       
+}
+
+.portiolios a, li{
+    display: block;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255, 1);
 }
 
 #check{
